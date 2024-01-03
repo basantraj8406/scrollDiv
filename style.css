@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(173, 68, 238),rgb(16, 16, 224));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 20rem;
+    width: 20rem;
+    
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type:x  proximity;
+}
+.container div{
+    min-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    border: 2px solid white;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    scroll-snap-align: center;
+}
+.b5{
+    background-image: url("https://img.freepik.com/premium-photo/shree-ram-hindu-god-cartoon-style-generative-ai_849906-12369.jpg");
+    background-size: cover;
+}
+.b2{
+    background-image: url("https://thumbs.dreamstime.com/b/baby-hanuman-praying-folded-hands-generative-ai-baby-hanuman-praying-folded-hands-generative-ai-art-created-ai-281388618.jpg");
+    background-size: cover;
+}
+.b3{
+    background-image: url("https://storage.googleapis.com/pai-images/ab65c7750efb4871a4f6b9605caf3216.jpeg");
+    background-size: cover;
+}
+.b4{
+    background-image: url("https://i.pinimg.com/originals/8f/10/31/8f1031524881cbbac52c14bff29c8751.jpg");
+    background-size: contain;
+}
+.b1{
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-0fee2eb8a4b634806fd8ecb7fd0fcf0a-lq");
+    background-size: cover;
+}
